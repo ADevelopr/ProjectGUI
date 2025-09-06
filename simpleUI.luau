@@ -1,6 +1,6 @@
-local UILib = {}
+local simpleUI = {}
 
-function UILib:Frame()
+function simpleUI:Frame()
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
     ScreenGui.IgnoreGuiInset = true
