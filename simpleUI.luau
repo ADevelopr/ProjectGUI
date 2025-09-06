@@ -28,7 +28,8 @@ function simpleUI:TopBar()
 	TopBar.ScrollBarThickness = 15
 	
 	UiCorner.Parent = TopBar
-	
+
+	TBUiPadding.Parent = TopBar
 	TBUiPadding.PaddingTop = UDim2.new(0, 5)
 	TBUiPadding.PaddingLeft = UDim2.new(0, 5)
 	
