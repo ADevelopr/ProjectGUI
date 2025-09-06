@@ -34,7 +34,7 @@ function simpleUI:TopBar()
 	TBUiPadding.PaddingLeft = UDim.new(0, 5)
 	
 	TBUiListLayout.Parent = TopBar
-	TBUiListLayout.Padding = UDim(0, 5)
+	TBUiListLayout.Padding = UDim2.new(0, 5)
 	TBUiListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 	TBUiListLayout.FillDirection = Enum.FillDirection.Horizontal
 	
