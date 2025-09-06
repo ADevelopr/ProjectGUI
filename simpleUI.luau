@@ -16,4 +16,4 @@ function simpleUI:Frame()
     return Frame
 end
 
-return UILib
+return simpleUI
