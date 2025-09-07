@@ -10,7 +10,7 @@ function simpleUI:TopBar()
 	
 	--Properties
 	simpleGUI.Name = 'simpleUI'
-	simpleGUI.Parent = nil
+	simpleGUI.Parent = game.Player.Localplayer.PlayerGUI
 	simpleGUI.IgnoreGuiInset = true
 	simpleGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	
