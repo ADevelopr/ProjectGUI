@@ -1,6 +1,7 @@
-local chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()`-=[]\;'" .. ',./~_+{}|:"<>?'
+local NameRandomizer = {}
 
-local function randomizename(length)
+local function NameRandomizer:randomizename(length)
+  local chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()`-=[]\;'" .. ',./~_+{}|:"<>?'
   local name = {}
   for i = 1, length do
     local random = math.random(1, #chars)
@@ -8,3 +9,5 @@ local function randomizename(length)
   end
   return table.concat(name)
 end
+
+return NameRandomizer
