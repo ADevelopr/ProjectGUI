@@ -1,6 +1,6 @@
 local NameRandomizer = {}
 
-local function NameRandomizer:randomizename(length)
+function NameRandomizer:randomizename(length)
   local chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()`-=[]\;'" .. ',./~_+{}|:"<>?'
   local name = {}
   for i = 1, length do
