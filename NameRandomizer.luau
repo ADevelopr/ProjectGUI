@@ -1,4 +1,4 @@
-local chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()`-=[]\;',./~_+{}|:"<>?'
+local chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()`-=[]\;'" .. ',./~_+{}|:"<>?'
 
 local function randomizename(length)
   for i = 1, length do
