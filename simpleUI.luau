@@ -10,7 +10,7 @@ function simpleUI:TopBar()
 	
 	--Properties
 	simpleGUI.Name = 'simpleUI'
-	simpleGUI.Parent = game.Players.LocalPlayer:WaitForChild('PlayerGui')
+	simpleGUI.Parent = nil
 	simpleGUI.IgnoreGuiInset = true
 	simpleGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	
